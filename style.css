@@ -1,0 +1,10 @@
+img {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+.image-box {
+    display: flex;
+    justify-content: center;
+}
