@@ -7,4 +7,24 @@ img {
 .image-box {
     display: flex;
     justify-content: center;
+
+}
+
+.bordoimg {
+    display: block;
+    margin: auto;
+    border-radius: 100%;
+    border: 5px solid #ff675b
+}
+
+
+.nome {
+    display: flex;
+    justify-content: center;
+}
+
+.box_nome {
+        border-width:3px;
+        border-style:solid;
+        border-color:#ff0000;
 }
