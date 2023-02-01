@@ -28,3 +28,27 @@ img {
         border-style:solid;
         border-color:#ff0000;
 }
+
+
+.text1 {
+    left: 55px;
+    font-size: 50px;
+}
+
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+
+ }
+
+
+ .motivo1 {
+    border: 1px solid red;
+    background: url(images/kebab1-2-3.jpg);
+    background-size: cover;
+ }
+
