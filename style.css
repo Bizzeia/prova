@@ -21,34 +21,68 @@ img {
 .nome {
     display: flex;
     justify-content: center;
+    color: rgb(255, 255, 255);
 }
 
 .box_nome {
         border-width:3px;
         border-style:solid;
         border-color:#ff0000;
+        background-color: rgba(34, 0, 0, 0.9);
+        padding: 9px;
 }
+
+
+.motivo1 {
+    background: url(images/kebab1-2-3.jpg);
+    background-size: cover;
+    min-height: 500px;
+    height: 100vh;
+ }
 
 
 .text1 {
     left: 55px;
     font-size: 50px;
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+
+.text2 {
+    left: 55px;
+    font-size: 30px;
+    text-align: right;
+    padding-right: 30px;
 }
 
 
-#footer {
+.motivo1 {
+    background: url(images/kebab1-2-3.jpg);
+    background-size: cover;
+    min-height: 500px;
+    height: 100vh;
+ }
+
+ .motivo2 {
+    background: url(images/);
+    background-size: cover;
+    min-height: 500px;
+    height: 100vh;
+ }
+
+
+ body {
+    background: url(images/bandiera.jpg);
+ }
+
+
+ #footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
     text-align: center;
 
- }
-
-
- .motivo1 {
-    border: 1px solid red;
-    background: url(images/kebab1-2-3.jpg);
-    background-size: cover;
  }
 
